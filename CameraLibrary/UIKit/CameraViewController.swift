@@ -130,6 +130,7 @@ class CameraViewController: UIViewController {
 extension CameraViewController: AVCapturePhotoCaptureDelegate {
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: (any Error)?) {
         if let error {
+            print("\(error.localizedDescription)")
             delegate?.didCancelCapture()
             return
         }
