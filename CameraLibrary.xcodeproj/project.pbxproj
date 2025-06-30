@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5490FE8C2E12F10200E9E74A /* Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5490FE8C2E12F10200E9E74A /* CameraLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CameraLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5490FE8E2E12F10200E9E74A /* Camera */ = {
+		5490FE8E2E12F10200E9E74A /* CameraLibrary */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Camera;
+			path = CameraLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		5490FE822E12F10200E9E74A = {
 			isa = PBXGroup;
 			children = (
-				5490FE8E2E12F10200E9E74A /* Camera */,
+				5490FE8E2E12F10200E9E74A /* CameraLibrary */,
 				5490FE8D2E12F10200E9E74A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		5490FE8D2E12F10200E9E74A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5490FE8C2E12F10200E9E74A /* Camera.framework */,
+				5490FE8C2E12F10200E9E74A /* CameraLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +58,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5490FE8B2E12F10200E9E74A /* Camera */ = {
+		5490FE8B2E12F10200E9E74A /* CameraLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5490FE952E12F10300E9E74A /* Build configuration list for PBXNativeTarget "Camera" */;
+			buildConfigurationList = 5490FE952E12F10300E9E74A /* Build configuration list for PBXNativeTarget "CameraLibrary" */;
 			buildPhases = (
 				5490FE872E12F10200E9E74A /* Headers */,
 				5490FE882E12F10200E9E74A /* Sources */,
@@ -72,13 +72,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5490FE8E2E12F10200E9E74A /* Camera */,
+				5490FE8E2E12F10200E9E74A /* CameraLibrary */,
 			);
-			name = Camera;
+			name = CameraLibrary;
 			packageProductDependencies = (
 			);
 			productName = Camera;
-			productReference = 5490FE8C2E12F10200E9E74A /* Camera.framework */;
+			productReference = 5490FE8C2E12F10200E9E74A /* CameraLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5490FE862E12F10200E9E74A /* Build configuration list for PBXProject "Camera" */;
+			buildConfigurationList = 5490FE862E12F10200E9E74A /* Build configuration list for PBXProject "CameraLibrary" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5490FE8B2E12F10200E9E74A /* Camera */,
+				5490FE8B2E12F10200E9E74A /* CameraLibrary */,
 			);
 		};
 /* End PBXProject section */
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5490FE862E12F10200E9E74A /* Build configuration list for PBXProject "Camera" */ = {
+		5490FE862E12F10200E9E74A /* Build configuration list for PBXProject "CameraLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5490FE932E12F10300E9E74A /* Debug */,
@@ -341,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5490FE952E12F10300E9E74A /* Build configuration list for PBXNativeTarget "Camera" */ = {
+		5490FE952E12F10300E9E74A /* Build configuration list for PBXNativeTarget "CameraLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5490FE962E12F10300E9E74A /* Debug */,
